@@ -1,0 +1,31 @@
+.serviceItem {
+    height: fit-content;
+}
+.lead {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+.showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+    font-size: 23px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    /* bigger that 400 */
+    .serviceItem{
+        height: 700px;
+    }
+
+}
